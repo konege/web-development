@@ -1,4 +1,4 @@
-# web-development
+# web-programming-project
 
 Description
 - This project is a web development portfolio showcasing a responsive website that integrates a mock API to populate form fields with data. It features a main index page, a success page for form submission, and additional pages for site navigation, including an about page, category page, contact page, and terms and conditions.
