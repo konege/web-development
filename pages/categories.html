@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+      }
+      .categories-list {
+        list-style: none;
+        padding: 0;
+      }
+      .categories-list li {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+      }
+      .categories-list li:last-child {
+        border-bottom: none;
+      }
+      .categories-list a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        transition: background-color 0.2s;
+        text-align: center;
+      }
+      .categories-list a:hover {
+        background-color: #f4f4f4;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 13px;
+      }
+      .button-wrapper {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .back-button {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        background-color: black;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Categories</h1>
+
+      <ul class="categories-list">
+        <li><a href="">Category 1</a></li>
+        <li><a href="">Category 2</a></li>
+        <li><a href="">Category 3</a></li>
+        <li><a href="">Category 4</a></li>
+        <!-- More categories as needed -->
+      </ul>
+
+      <div class="footer">
+        <p>&copy; This is an example of Categories page.</p>
+      </div>
+      <div class="button-wrapper">
+        <a href="../index.html" class="back-button">Back to Home</a>
+      </div>
+    </div>
+  </body>
+</html>

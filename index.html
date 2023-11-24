@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ege Demir University</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <nav class="navbar">
+        <div class="nav-menu" id="navMenu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="pages/categories.html" class="nav-link">Categories</a>
+          <a href="pages/about.html" class="nav-link">About</a>
+          <a href="pages/contact.html" class="nav-link">Contact</a>
+        </div>
+      </nav>
+      <a href="#reponsive-menu" class="menu-btn">
+        <img src="images/button1.png" alt="button1" />
+      </a>
+    </header>
+    <aside id="reponsive-menu">
+      <header>
+        <a href="#" class="menu-btn">
+          <img
+            style="width: 20px; height: 20px; margin: 5px"
+            src="images/button2.png"
+            alt="button2"
+          />
+        </a>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="pages/categories.html">Categories</a>
+          </li>
+          <li>
+            <a href="pages/about.html">About</a>
+          </li>
+          <li>
+            <a href="pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="form-section">
+        <form id="appointment-form">
+          <h2>EDUCATION APPOINTMENT FORM</h2>
+          <input
+            type="text"
+            name="title"
+            id="title"
+            required
+            placeholder="Title"
+          />
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Your name"
+          />
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+          <br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone Number (ex. 05XXXXXXXXX)"
+          />
+          <br />
+          <select id="course-type" name="course-type" required>
+            <option value="" disabled selected>Course Type:</option>
+          </select>
+          <br />
+          <select name="city" id="city" required>
+            <option value="" disabled selected>City:</option>
+          </select>
+
+          <p class="location-selection">How would you like to be located?</p>
+
+          <select id="contact-method" name="contact-method" required>
+            <option value="phone">By Phone</option>
+            <option value="email">Via Email</option>
+            <option value="meeting">Online Meeting</option>
+            <option value="face-to-face">Face-to-Face</option>
+            <option value="office">Office</option>
+          </select>
+          <br />
+          <select name="hours" id="hours">
+            <option value="" selected disabled>Hours: 8am - 10pm</option>
+            <option value="">8am - 9am</option>
+            <option value="">9am - 10am</option>
+            <option value="">10am - 11am</option>
+            <option value="">11am - 12pm</option>
+            <option value="">12pm - 1pm</option>
+            <option value="">1pm - 2pm</option>
+            <option value="">2pm - 3pm</option>
+            <option value="">3pm - 4pm</option>
+            <option value="">4pm - 5pm</option>
+            <option value="">5pm - 6pm</option>
+            <option value="">6pm - 7pm</option>
+            <option value="">7pm - 8pm</option>
+            <option value="">8pm - 9pm</option>
+            <option value="">9pm - 10pm</option>
+          </select>
+
+          <section id="terms">
+            <input
+              type="checkbox"
+              name="accept-terms"
+              id="accept-terms"
+              required
+            />
+            <label for="accept-terms"
+              >I agree to the
+              <a href="pages/term-and-cond.html" id="terms-conditions"
+                >Terms and Conditions</a
+              >
+            </label>
+          </section>
+
+          <a href="pages/success.html"
+            ><button type="submit" class="btn">
+              Request an appointment
+            </button></a
+          >
+        </form>
+      </section>
+    </main>
+    <script src="scripts/api.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
