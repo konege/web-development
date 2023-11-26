@@ -21,5 +21,5 @@ Features
 API
 - The project utilizes a mock API from mocky.io with 10 Turkish cities and 10 course types.
 
-RESPONSIVE DESIGN
+Responsive Design
 - When looking at the site from a small screen (tablet, phone, etc.), the menu elements disappear and are replaced by the hamburger button. When the button is clicked, the menu elements become visible on the screen.
